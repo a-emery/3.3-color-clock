@@ -21,7 +21,10 @@ var hexStringSeconds = seconds.toString(16),
 document.querySelector('.time-clock').textContent = zeros(hours) + ":" + zeros(minutes) + ":" + zeros(seconds);
 document.querySelector('.hex-clock').textContent = zeros(hexStringHours) + ":" + zeros(hexStringMinutes) + ":" + zeros(hexStringSeconds);
 
-document.body.style.backgroundColor = "#" + zeros(hexStringHours) + zeros(hexStringMinutes) + zeros(hexStringSeconds);
+var hexColor = "#" + zeros(hexStringHours) + zeros(hexStringMinutes) + zeros(hexStringSeconds);
+
+document.body.style.backgroundImage = "radial-gradient(circle closest-side, " + hexColor + ", rgba(0, 0, 0, .1))";
+document.body.style.backgroundColor = hexColor;
 }
 
 setInterval(time, 1000);
