@@ -25,10 +25,21 @@ html {
   font-size: 6rem;
   font-family: "Bleeding Cowboy"; }
 
+.time-clock {
+  display: block; }
+
+.hex-clock {
+  display: none; }
+
+.clock-container:hover .time-clock {
+  display: none; }
+
+.clock-container:hover .hex-clock {
+  display: block; }
+
 hr {
-  width: 40px;
   border: 0;
   border-top: 10px solid black;
-  margin-top: -60px; }
+  margin-top: -30px; }
 
 /*# sourceMappingURL=main.css.map */
