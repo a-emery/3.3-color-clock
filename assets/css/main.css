@@ -1,11 +1,12 @@
-@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
-@import "../../bower_components/neat/app/assets/stylesheets/neat";
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 @font-face {
   font-family: "Bleeding Cowboy";
-  src: url(../../Bleeding_Cowboys.ttf);
-
-}
+  src: url(../../Bleeding_Cowboys.ttf); }
 .clock-container {
   width: 400px;
   height: 200px;
@@ -15,11 +16,11 @@
   margin: -100px 0 0 -200px;
   line-height: 200px;
   vertical-align: middle;
-  text-align: center;
-}
+  text-align: center; }
 
 .clock {
   border-bottom: 2px, solid, white;
   font-size: 6rem;
-  font-family: "Bleeding Cowboy";
-}
+  font-family: "Bleeding Cowboy"; }
+
+/*# sourceMappingURL=main.css.map */
