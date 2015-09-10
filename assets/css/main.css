@@ -7,6 +7,10 @@ html {
 @font-face {
   font-family: "Bleeding Cowboy";
   src: url(../../Bleeding_Cowboys.ttf); }
+body {
+  transition: all 500ms ease-in;
+  background-image: radial-gradient(circle at 50% 50%, blue, black); }
+
 .clock-container {
   width: 600px;
   height: 150px;
@@ -38,6 +42,7 @@ html {
 hr {
   border: 0;
   border-top: 10px solid white;
-  margin-top: -30px; }
+  margin-top: -30px;
+  transition: all 500ms ease-in; }
 
 /*# sourceMappingURL=main.css.map */
