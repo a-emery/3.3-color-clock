@@ -8,8 +8,7 @@ html {
   font-family: "Bleeding Cowboy";
   src: url(../../Bleeding_Cowboys.ttf); }
 body {
-  transition: all 500ms ease-in;
-  background-image: radial-gradient(circle at 50% 50%, blue, black); }
+  transition: all 500ms ease-in; }
 
 .clock-container {
   width: 600px;

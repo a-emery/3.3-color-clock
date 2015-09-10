@@ -23,9 +23,7 @@ document.querySelector('.hex-clock').textContent = zeros(hexStringHours) + ":" +
 
 var hexColor = "#" + zeros(hexStringHours) + zeros(hexStringMinutes) + zeros(hexStringSeconds);
 
-
-
-// document.body.style.backgroundColor = hexColor;
+document.body.style.backgroundColor = hexColor;
 }
 
 setInterval(time, 1000);
