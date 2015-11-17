@@ -12,7 +12,7 @@ function zeros(number) {
   }
 }
 
-document.querySelector('hr').style.width = (seconds / 60) * 500 + 'px';
+document.querySelector('hr').style.width = (seconds / 60) * 600 + 'px';
 
 var hexStringSeconds = seconds.toString(16),
     hexStringMinutes = minutes.toString(16),

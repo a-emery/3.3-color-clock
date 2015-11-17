@@ -23,7 +23,8 @@ body {
 
 .clock {
   font-size: 6rem;
-  font-family: "Bleeding Cowboy";
+  font-family: Helvetica;
+  font-weight: lighter;
   color: white; }
 
 .time-clock {
@@ -40,8 +41,8 @@ body {
 
 hr {
   border: 0;
-  border-top: 10px solid white;
+  border-top: 5px solid white;
   margin-top: -30px;
-  transition: all 500ms ease-in; }
+  transition: all 1000ms ease-in; }
 
 /*# sourceMappingURL=main.css.map */
